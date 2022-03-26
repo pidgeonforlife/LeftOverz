@@ -4,4 +4,51 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    margin-top: 150px;
+}
+
+.onboardLogo img {
+    width: 200px;
+    height: 200px;
+}
+
+.onboardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.onboardInfo button {
+    margin-top: 60px;
+    width: 270px;
+    height: 51px;
+    background: #5E3E2F;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+
+.onboardInfo a {
+    padding-top: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.onboardInfo p {
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+    width: 300px;
+    text-align: center;
+    color: #353535;
 }

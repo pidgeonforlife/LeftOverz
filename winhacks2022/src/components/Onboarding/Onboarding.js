@@ -10,6 +10,9 @@ export class Onboarding extends Component {
                   <img src='./images/OnboardingEgg.png' />
               </div>
               <div className='onboardInfo'>
+                  <p>SAVE THE PLANET ONE MEAL AT A TIME</p>
+                  <button>Get Started</button>
+                  <a>Already a member? Login</a>
 
               </div>
           </div>
