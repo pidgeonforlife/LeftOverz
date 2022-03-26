@@ -1,0 +1,53 @@
+.signUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signUpTitle {
+    margin-top: 107px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.signUpTitle img {
+    width: 30px;
+    height: 30px;
+}
+
+.signUpTitle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #353535;
+}
+
+.signUpDescription a {
+    margin-right: 108px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.SignUpForm form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    gap: 33px;
+}
+
+.SignUpForm input {
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
