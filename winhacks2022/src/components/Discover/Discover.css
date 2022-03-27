@@ -85,4 +85,49 @@
 
 .recommended {
     margin-left: 30px;
-} 
+}
+
+.orange {
+    color: #E1591F;
+}
+
+.settingInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.08);
+    height: 65px;
+}
+
+.settingInfo p {
+    margin-left: 10px;
+}
+
+.settingsList {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#moveThis {
+    margin-right: 250px;
+}
+
+#moveLeft {
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+#moveUp {
+    margin-right: 130px;
+    margin-top: 15px;
+}
+
+.settingsList img {
+    margin-left: 20px;
+}

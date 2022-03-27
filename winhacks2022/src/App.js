@@ -1,9 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { History } from "history";
 import Onboard from "./pages/Onboard";
 import SignUp from "./pages/SignUp";
 import Discover from "./pages/Discover";
 import DiscoverPage from "./pages/DisocverPage";
+import Settings from "./pages/Settings";
+import Order from "./pages/Order";
+import Recipe from "./pages/Recipe";
 
 function App() {
   return (
@@ -14,6 +18,9 @@ function App() {
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/discover" element={<Discover />} />
           <Route exact path="/home" element={<DiscoverPage />} />
+          <Route exact path="/settings" element={<Settings />} />
+          <Route exact path="/order" element={<Order />} />
+          <Route exact path="/recipe" element={<Recipe />} />
         </Routes>
       </Router>
     </div>
