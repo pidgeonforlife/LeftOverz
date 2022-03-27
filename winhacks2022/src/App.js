@@ -9,6 +9,8 @@ import Settings from "./pages/Settings";
 import Order from "./pages/Order";
 import Recipe from "./pages/Recipe";
 import Details from "./pages/Details";
+import Confirmation from "./pages/Confirmation";
+import RecipeConfirmation from "./components/RecipeCalculator/RecipeConfirmation";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route exact path="/order" element={<Order />} />
           <Route exact path="/recipe" element={<Recipe />} />
           <Route exact path="/details1" element={<Details />} />
+          <Route exact path="/confirm" element={<Confirmation />} />
+          <Route exact path="/recipeconfirm" element={<RecipeConfirmation />} />
         </Routes>
       </Router>
     </div>

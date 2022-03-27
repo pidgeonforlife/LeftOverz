@@ -1,16 +1,16 @@
 import React from "react";
+import RecipeConfirmation from "../components/RecipeCalculator/RecipeConfirmation";
 import Footer2 from "../components/Footer/Footer2";
-import Recipe1 from "../components/RecipeCalculator/Recipe1";
 import '../App.css'
 
 
-function Recipe() {
+function RecipeConfirm() {
     return (
         <div className="OnBoarding">
-        <Recipe1 />
+        <RecipeConfirmation />
         <Footer2 />
         </div>
     );
 }
 
-export default Recipe;
+export default RecipeConfirm;

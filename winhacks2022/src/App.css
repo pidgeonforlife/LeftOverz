@@ -72,14 +72,52 @@ color: #E1591F;
 }
 
 .changeTitleSize {
+  margin-top: 5px;
   font-weight: 700;
   font-size: 13px;
 }
 
 .changeDescriptionSize {
+  margin-top: 5px;
   width: 378px;
   height: 62px;
   font-weight: 400;
   font-size: 13px;
   color: #333333;
 }
+
+.ratingYoHo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ratingYoHo img {
+  width: 20px;
+  height: 20px;
+}
+
+.YAHOO {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.line {
+  margin-top: 5px;
+}
+
+.imageYAH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.imageYAH img {
+  width: 90%;
+  height: 90%;
+}
+
+
