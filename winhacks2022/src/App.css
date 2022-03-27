@@ -10,3 +10,76 @@
   background: #FFF7EB;
   height: 100vh;
 }
+
+.orderDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orderDetailsImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.surpriseBoxTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 14px;
+}
+
+.sizeUp {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.restrauntRating {
+  margin-top: 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.restrauntRating img {
+  width: 15px;
+  height: 15px;
+}
+
+.gray {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+font-size: 16px;
+/* identical to box height, or 192% */
+
+
+color: #E1591F;
+}
+
+.location img {
+  width: 15px;
+  height: 15px;
+}
+
+.changeTitleSize {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.changeDescriptionSize {
+  width: 378px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #333333;
+}

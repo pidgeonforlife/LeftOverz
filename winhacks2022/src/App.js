@@ -8,6 +8,7 @@ import DiscoverPage from "./pages/DisocverPage";
 import Settings from "./pages/Settings";
 import Order from "./pages/Order";
 import Recipe from "./pages/Recipe";
+import Details from "./pages/Details";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/settings" element={<Settings />} />
           <Route exact path="/order" element={<Order />} />
           <Route exact path="/recipe" element={<Recipe />} />
+          <Route exact path="/details1" element={<Details />} />
         </Routes>
       </Router>
     </div>

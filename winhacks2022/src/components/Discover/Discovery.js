@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 export class Discovery extends Component {
     render() {
@@ -19,6 +19,9 @@ export class Discovery extends Component {
               <div className='locationHolder'>
                   <img src='./images/orangearrow.png'/>
                   <p>Use current location</p>
+              </div>
+              <div className='onboardInfo'>
+                  <Link to='/home'><button>Discover</button></Link>
               </div>
           </div>
       )

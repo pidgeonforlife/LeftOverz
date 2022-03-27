@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './SignUpper.css'
 
 
@@ -33,7 +34,7 @@ export class SignUpper extends Component {
                   </form>
               </div>
               <div className='onboardInfo'>
-                  <button>Sign Up</button>
+                  <Link to='/discover'><button>Sign Up</button></Link>
               </div>
           </div>
       )
