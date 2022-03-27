@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HorizontalScroll from 'react-scroll-horizontal'
+import { Link } from 'react-router-dom';
 import './Discover.css';
 
 export class DiscoverLocal extends Component {
@@ -29,7 +29,7 @@ export class DiscoverLocal extends Component {
                           </div>
                           <div className='restrauntInfo1'>
                               <div className='restrauntInfoTop'>
-                                  <p>Domino's Pizza</p>
+                                  <Link to='/confirm'><p>Domino's Pizza</p></Link>
                                   <a>10:00 AM - 5:00 PM</a>
                               </div>
                               <div className='restrauntInfoBottom'>

@@ -50,7 +50,7 @@ export class RestrauntConfirmation extends Component {
                   </div>
               </div>
               <div className='onboardInfo'>
-                  <Link to='/discover'><button>Reserve</button></Link>
+                  <Link to='/details1'><button>Reserve</button></Link>
               </div>
               </div>
           </div>
