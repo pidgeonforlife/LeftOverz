@@ -87,3 +87,96 @@
 .move {
     margin-right: 30px;
 }
+
+.DiscoverFoods {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.DiscoverFoods button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.DiscoverFoods img {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 5px;
+}
+
+
+.doThis {
+    display: flex;
+    flex-direction: row;
+    color: #E1591F;
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    gap: 9px;
+}
+
+.doThis img {
+    width: 20px;
+    height: 20px;
+}
+
+.discoverTitle {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.discoverTitle p {
+    font-family: 'Margarine', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #353535;
+}
+
+.recommendedTitle {
+    margin-top: 31px;
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+}
+
+.recommendedTitle button {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: #E1591F;
+    margin-top: 3px;
+}
+
+.recommendedTitle img {
+    width: 20px;
+    height: 20px;
+}
+
+.recommendedTitle p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
