@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-export class Discovery extends Component {
+export class DiscoverLocal extends Component {
     render() {
       return (
           <div className='signUpContainer'>
@@ -25,4 +25,4 @@ export class Discovery extends Component {
     }
   }
   
-  export default Discovery;
+  export default DiscoverLocal;
