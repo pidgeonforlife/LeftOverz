@@ -13,7 +13,7 @@ export class RecipeConfirmation extends Component {
                   <img src='./images/strawberrypie.png' />
               </div>
               <div className='onboardInfo'>
-                  <Link to='/discover'><button>Return Home</button></Link>
+                  <Link to='/home'><button>Return Home</button></Link>
               </div>
           </div>
       )
