@@ -19,8 +19,9 @@
 }
 
 .onboardInfo button {
+    font-family: 'Lato', sans-serif;
     margin-top: 60px;
-    width: 270px;
+    width: 250px;
     height: 51px;
     background: #5E3E2F;
     border-radius: 30px;
@@ -36,6 +37,7 @@
 }
 
 .onboardInfo a {
+    font-family: 'Lato', sans-serif;
     padding-top: 17px;
     font-style: normal;
     font-weight: 500;
@@ -44,12 +46,13 @@
 }
 
 .onboardInfo p {
+    font-family: 'Margarine', cursive;
     margin-top: 90px;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 45px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     color: #353535;
 }
