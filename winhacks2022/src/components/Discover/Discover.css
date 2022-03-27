@@ -1,0 +1,88 @@
+.restraunt1 {
+    object-fit: contain;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    height: 150px;
+    width: 300px;
+}
+
+
+
+.restrauntInfoTop {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.restrauntInfoTop p {
+    font-size: 16px;
+}
+
+.restrauntInfoTop a {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6D6D6D;
+}
+
+.restrauntInfoBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 135px;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.restrauntInfoBottom img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.fix {
+    display: flex;
+    flex-direction: row;
+}
+
+.dollar {
+    background: #FFF7EB;
+    border-radius: 20px;
+    padding: 2px 10px;
+    color: #E1591F;
+}
+
+.restrauntCover {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    bottom: 27px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.restrauntList::-webkit-scrollbar {
+    display: none;
+}
+
+.restrauntList {
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 360px;
+    gap: 10px;
+    height: 220px;
+}
+
+.recommended {
+    margin-left: 30px;
+} 
